@@ -2,10 +2,10 @@
 
 FROM ruby:3.1.3-bullseye
 
-WORKDIR /depleters
+WORKDIR /dir_name
 
-COPY Gemfile /depleters/Gemfile
-COPY Gemfile.lock /depleters/Gemfile.lock
+COPY Gemfile /dir_name/Gemfile
+COPY Gemfile.lock /dir_name/Gemfile.lock
 RUN bundle install
 
 # A script to tidy things up when the container starts
