@@ -13,6 +13,7 @@ git clone git@github.com:eddbot/docker-rails-quickstart.git name_of_new_rails_ap
 ## Housekeeping
 - Update `entrypoint.sh` to make reference to the name of the directory
 - Update `Dockerfile` to make reference to the name of the directory
+- Update `docker-compose.yml` to make reference to the name of the directory
 - Update `docker_db.yml` to make reference to the name of the directory
 
 ## Docker thangs
