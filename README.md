@@ -6,3 +6,4 @@ Scripts based on the guide found [here](https://github.com/docker/awesome-compos
 - Clone the repository
 - Run `make initial`
 - Run `make admin` if on linux/WSL2
+- Update `entrypoint.sh` to make reference to the name of the directory
