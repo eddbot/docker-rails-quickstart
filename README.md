@@ -28,7 +28,7 @@ mv docker_db.yml config/database.yml
 - Run `make setup` to create and seed the databases
 
 ## Starting the application
-- make up
+- `make up`
 
 ## Stopping the application
-- make down
+- `make down`
