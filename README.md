@@ -19,6 +19,7 @@ git clone git@github.com:eddbot/docker-rails-quickstart.git name_of_new_rails_ap
 ## Docker thangs
 - Run `make initial`
 - Run `make admin` if on linux/WSL2
+- Run `make build`
 
 ## Setup the DB
 - Copy over our docker settings
